@@ -22,7 +22,7 @@ body {
 
 }
 
-#orange {
+.orange {
     color: orangered;
 }
 
@@ -126,4 +126,44 @@ body {
     box-shadow: -10px 10px 40px skyblue;
     border-bottom: 10px solid skyblue;
 
+}
+
+.lastsec2 {
+    width: 70%;
+
+
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 15%;
+    margin-right: 50%;
+
+    border-radius: 10px;
+    box-shadow: -10px 10px 40px gray;
+    border-bottom: 10px solid gray;
+
+}
+
+.pad {
+    margin-left: 100px;
+
+}
+
+#red {
+    color: rgb(207, 23, 23);
+}
+
+#vio {
+    color: rgb(191, 8, 201);
+}
+
+#blue {
+    color: blue;
+}
+
+footer {
+    background-color: rgb(54, 54, 72);
+    text-align: center;
+    color: aliceblue;
+    margin-top: 100px;
+    padding: 50px;
 }
