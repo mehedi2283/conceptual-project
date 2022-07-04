@@ -75,3 +75,55 @@ body {
     height: 100%;
     margin: 0;
 }
+
+.lastsec img {
+    margin: 20px;
+    width: 70%;
+    padding-left: 10px;
+    border-radius: 30px;
+    margin-left: 60px;
+
+}
+
+.lastsection {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    margin-top: 0;
+    padding: 10px;
+
+}
+
+.lastsec {
+    margin: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+}
+
+.third {
+
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+
+#gray {
+    color: gray;
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+.box-shadow {
+
+    box-shadow: -10px 10px 40px rgb(255, 145, 0);
+    border-bottom: 10px solid rgb(255, 145, 0);
+}
+
+.box-shadow2 {
+
+    box-shadow: -10px 10px 40px skyblue;
+    border-bottom: 10px solid skyblue;
+
+}
