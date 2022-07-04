@@ -39,7 +39,7 @@ body {
 
 .link-button {
     text-decoration: none;
-    border-radius: 50px;
+    border-radius: 15px;
     background-image: linear-gradient(orange, orangered);
     padding-top: 10px;
     padding-bottom: 10px;
@@ -50,4 +50,28 @@ body {
     color: aliceblue;
     font-weight: 800;
     box-shadow: -5px 5px 20px orangered;
+}
+
+.about-image {
+    width: 8%;
+    margin-left: 20%;
+    margin-top: 30px;
+    padding-left: 15%;
+}
+
+.about-right {
+    color: gray;
+    width: 50%;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    font-size: xx-large;
+}
+
+#aboutbg {
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
 }
