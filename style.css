@@ -274,6 +274,34 @@ nav:hover h1 {
     }
 }
 
+#icon {
+    opacity: 0;
+    transform: translateX(-10px);
+    animation: moveright 0.5s linear forwards;
+    animation-delay: 0.5s;
+}
+
+@keyframes moveright {
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+nav h1 {
+    opacity: 0;
+    transform: translateY(-5px);
+    animation: moveup 0.5s linear forwards;
+    animation-delay: 1s;
+}
+
+@keyframes moveup {
+    100% {
+        opacity: 1;
+        transform: translateY(2px);
+    }
+}
+
 nav:hover span {
-    color: rgb(0, 135, 13);
+    color: rgb(0, 156, 16);
 }
