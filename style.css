@@ -2,11 +2,13 @@ body {
     font-family: 'Ubuntu', sans-serif;
     font-size: large;
     margin: 0;
+    background-color: bisque;
 
 }
 
 .flexible {
     display: flex;
+    background-color: bisque;
 }
 
 .half-width {
@@ -30,6 +32,8 @@ body {
     margin-top: 60px;
     font-size: 30px;
     width: 200%;
+    animation: delay 2s;
+
 }
 
 .sec1-banner p {
@@ -45,11 +49,10 @@ body {
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
-
-
     color: aliceblue;
     font-weight: 800;
     box-shadow: -5px 5px 20px orangered;
+
 }
 
 .about-image {
@@ -86,11 +89,8 @@ body {
 }
 
 .lastsection {
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-bottom: 10%;
-    margin-top: 0;
-    padding: 10px;
+
+    padding: 20px 10%;
 
 }
 
@@ -99,13 +99,21 @@ body {
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 20px;
+    background-color: bisque;
+
+
+
 }
+
+
 
 .third {
 
     text-align: center;
     margin-left: 30%;
     margin-right: 30%;
+
+
 
 }
 
@@ -116,6 +124,7 @@ body {
 }
 
 .box-shadow {
+
 
     box-shadow: -10px 10px 40px rgb(255, 145, 0);
     border-bottom: 10px solid rgb(255, 145, 0);
@@ -131,11 +140,13 @@ body {
 .lastsec2 {
     width: 70%;
 
+    background-color: bisque;
 
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     margin-left: 15%;
     margin-right: 50%;
+    margin-top: 20px;
 
     border-radius: 10px;
     box-shadow: -10px 10px 40px gray;
@@ -164,8 +175,8 @@ footer {
     background-color: rgb(54, 54, 72);
     text-align: center;
     color: aliceblue;
-    margin-top: 100px;
-    padding: 50px;
+    margin-top: 20px;
+    padding: 1px;
 }
 
 nav {
@@ -220,23 +231,24 @@ nav ul li a {
 }
 
 nav:hover {
-
-    background-color: rgb(0, 255, 174);
+    background-color: rgb(229, 153, 30);
 }
 
 nav:hover ul li a {
-    color: rgb(0, 141, 7);
+    color: rgb(0, 111, 6);
 }
 
 nav:hover h1 {
-    color: rgb(34, 151, 40);
+    color: rgb(172, 46, 0);
 }
 
 
 .anim {
     opacity: 0;
     transform: translateX(50px);
-    animation: moveleft 1s linear forwards;
+    animation: moveleft 0.5s linear forwards;
+    animation-delay: 1s;
+
 }
 
 @keyframes moveleft {
@@ -250,7 +262,8 @@ nav:hover h1 {
 .top-left {
     opacity: 0;
     transform: translateY(40px);
-    animation: moveup 1s linear forwards;
+    animation: moveup 0.5s linear forwards;
+    animation-delay: 0.5s;
 }
 
 @keyframes moveup {
@@ -259,4 +272,8 @@ nav:hover h1 {
         transform: translateY(0px);
 
     }
+}
+
+nav:hover span {
+    color: rgb(0, 135, 13);
 }
