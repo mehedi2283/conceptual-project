@@ -235,7 +235,7 @@ nav:hover {
 }
 
 nav:hover ul li a {
-    color: rgb(0, 111, 6);
+    color: rgb(255, 255, 255);
 }
 
 nav:hover h1 {
